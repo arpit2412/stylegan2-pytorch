@@ -493,10 +493,12 @@ Thank you to Matthew Mann for his inspiring [simple port](https://github.com/man
 
 
 ## Training -- Arpit
-```stylegan2_pytorch --data /flowerDataset --name stylegan2 --results_dir /StyleGan/results/ --models_dir /StyleGan/checkpoint -mage-size 512 --logs
+```
+stylegan2_pytorch --data /flowerDataset --name stylegan2 --results_dir /StyleGan/results/ --models_dir /StyleGan/checkpoint -mage-size 512 --logs
 ```
 
 
 ## Testing -- Arpit
-```stylegan2_pytorch --name stylegan2 --models_dir StyleGan/checkpoint/ --generate-interpolation --save-frames --num_image_tiles=1 --interpolation-num-steps 200
+```
+stylegan2_pytorch --name stylegan2 --models_dir StyleGan/checkpoint/ --generate-interpolation --save-frames --num_image_tiles=1 --interpolation-num-steps 200
 ```
