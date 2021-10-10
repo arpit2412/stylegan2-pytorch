@@ -502,3 +502,8 @@ stylegan2_pytorch --data /flowerDataset --name stylegan2 --results_dir /StyleGan
 ```
 stylegan2_pytorch --name stylegan2 --models_dir StyleGan/checkpoint/ --generate-interpolation --save-frames --num_image_tiles=1 --interpolation-num-steps 200
 ```
+
+## Saved-Weights (Oxford Flowers 102 Dataset)
+```
+https://universityofadelaide.box.com/s/fowcinbwykg74fbr4eovbxg8a3mrtw3r
+```
